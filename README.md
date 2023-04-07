@@ -24,5 +24,9 @@ f64::cos | ~10.4 ns (= 10400 ps)
 
 As you can see, this library is about 17x faster than the standard implementations for cos and sin.
 
+# Memory usage
+The memory usage of the look-up table can be calculated using the following formula:
+![memory usage](images/memory_usage.png)
+
 # Resources
 A faster rounding implementation: https://stackoverflow.com/questions/17035464/a-fast-method-to-round-a-double-to-a-32-bit-int-explained
